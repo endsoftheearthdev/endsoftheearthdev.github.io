@@ -2,9 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
-<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
-
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -58,9 +55,8 @@ $on-laptop:        800px;
 
 
 h1{
-color: blue;
-font-family:creepster;
-    
+    color: green;
+    font-family: 'Creepster', cursive;
 }
 
 
