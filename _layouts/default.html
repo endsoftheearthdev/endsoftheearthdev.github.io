@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+<style>
+h1 {
+    color: green;
+    font-family: 'Creepster', cursive;
+    font-size: 99px;
+}
 
-  {% include head.html %}
-  
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
-  </head>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-  <body>
+li {
+    float: left;
+}
 
-     <!--{% include header.html %}-->
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-     <ul>
-      <a>Home</a>
-      <a>About</a>
-      <a>Timeline</a>
-    </ul>
-    
-    <div class="page-content">
-      <div class="wrapper">
-        <h1><center>BOO HAS COME</center></h1>
-          <center><img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/21686402_10213738815845493_2921490882816028263_n.jpg?oh=ff8113aeed08a8e6368f64571482f1e4&oe=5A814A5F" alt="Mountain View";></center>
-        <!--{{ content }}-->
-      </div>
-    </div>
-      
-   
-    
-    {% include footer.html %}
+</style>
+</head>
 
-  </body>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 
+<body>
+
+<h1><center>BOO HAS COME</center></h1>
+<center><img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/21686402_10213738815845493_2921490882816028263_n.jpg?oh=ff8113aeed08a8e6368f64571482f1e4&oe=5A814A5F" alt="Mountain View";></center>
+
+</body>
 </html>
